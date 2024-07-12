@@ -50,9 +50,15 @@ table {
 }
 
 /* Aqui empieza el navbar */
+.body{
+    padding: 20px;
+}
 .main-cointainer{
-    height: 100vh; 
-    padding: 10px;
+    height: calc(100vh - 49px); 
+    /* padding: 10px; */
+}
+.background{
+    background-color: black;
 }
 .main-cointainer img{
     width: 100%;
